@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--style.css-->
+    <link rel="stylesheet" href="style.css">
+    <!--fontawesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>WD Project</title>
+  </head>
+  <body id="top">
+   <section class="header_menu" id="header_menu">
+    <div class="continer-fluid px-0 shadow">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 ">
+        <a class="navbar-brand pl-5 pl-small-0" href="index.html">
+          <img src="assets/logo.png" height="300" width="300" frameborder="0" scrolling="no"  class="img img-fluid" width="120px" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarSupportedContent" arai-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="category.html">Category</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+          </ul>
+          <div class="search mr-3">
+            <a href=" search.html" class="btn btn-sm btn-outline-primary">
+              Search
+            </a>      
+          </div>
+          <div class="cart">
+            <a href="cart.html">
+              <i class="fas fa-shopping-cart fa-2x"></i>
+              <span class="badge badge-pill badge-primary">24</span>
+            </a>
+          </div>
+        </div>
+
+      </nav>
+    </div>
+   </section>
+   <section class="header_carousel" id="header_carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img 1.jpg" class="d-block w-100" alt="image 1">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img 2.jpg" class="d-block w-100" alt="image 2">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img 3.jpg" class="d-block w-100" alt="image 3">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+   </section>
+   <section class="shop_by_category py-5 my-5" id="shop_by_category">
+    <div class="container-fluid">
+      <div class="section_title text-center mb-5">
+        <h1 class="text-capitalize">Pick Your Choice</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-12 mt-small-5 mb-small-5">
+          <div class="card bg-dark text-white">
+            <a href="category.html">
+              <img class="card-img img img-fluid" src="assets/keychains.jpg" alt="Keychains">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 mt-small-5 mb-small-5">
+          <div class="card bg-dark text-white">
+            <a href="category.html">
+              <img class="card-img img img-fluid" src="assets/bookmarks.jpg" alt="Bookmarks">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 mt-small-5 mb-small-5">
+          <div class="card bg-dark text-white">
+            <a href="category.html">
+              <img class="card-img img img-fluid" src="assets/bags.jpg" alt="Bags">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 mt-small-5 mb-small-5">
+          <div class="card bg-dark text-white">
+            <a href="category.html">
+              <img class="card-img img img-fluid" src="assets/cases.jpg" alt="Mobile Cases">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 mt-small-5 mb-small-5">
+          <div class="card bg-dark text-white">
+            <a href="category.html">
+              <img class="card-img img img-fluid" src="assets/bracelet.jpg" alt="Bracelets">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+   </section>
+   <section class="products py-5 my-5 bg-light" id="products">
+    <div class="container">
+      <div class="section_title text-center mb-5">
+        <h1 class="text-capitalize">Latest Goodies</h1>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-4 col-12 ">
+          <div class="single_product shadow text-center p-1">
+            <div class="product_img">
+            <a href="product_detail.html"><img src="assets/p 1.jpg" class="img img-fluid" alt=""></a>
+            <div class="new_product">
+             <span class="badge py-2 px-3 badge-pill badge-danger">Top Seller</span>
+          </div>
+        </div>
+        <div class="product-caption my-3">
+          <div class="product-ratting">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star low-star"></i>
+            <i class="far fa-star low-star"></i>
+          </div>
+          <h4><a href="product_detail.html">Cute Teddy Keyholder</a></h4>
+          <div class="price">
+            <b><span class=mr-1>$</span><span>200</span></b>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-12 ">
+          <div class="single_product shadow text-center p-1">
+            <div class="product_img">
+            <a href="product_detail.html"><img src="assets/p2.jpg" class="img img-fluid" alt=""></a>
+            <div class="new_product">
+             <span class="badge py-2 px-3 badge-pill badge-danger">Top Seller</span>
+          </div>
+        </div>
+        <div class="product-caption my-3">
+          <div class="product-ratting">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star low-star"></i>
+            <i class="far fa-star low-star"></i>
+          </div>
+          <h4><a href="product_detail.html"> Bear Beige Bag</a></h4>
+          <div class="price">
+            <b><span class=mr-1>$</span><span>250</span></b>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-12 ">
+          <div class="single_product shadow text-center p-1">
+            <div class="product_img">
+            <a href="product_detail.html"><img src="assets/p3.jpg" class="img img-fluid" alt=""></a>
+            <div class="new_product">
+             <span class="badge py-2 px-3 badge-pill badge-danger">Top Seller</span>
+          </div>
+        </div>
+        <div class="product-caption my-3">
+          <div class="product-ratting">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star low-star"></i>
+            <i class="far fa-star low-star"></i>
+          </div>
+          <h4><a href="product_detail.html">Totoro Phone Accesory</a></h4>
+          <div class="price">
+            <b><span class=mr-1>$</span><span>150</span></b>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-12 ">
+          <div class="single_product shadow text-center p-1">
+            <div class="product_img">
+            <a href="product_detail.html"><img src="assets/p4.jpg" class="img img-fluid" alt=""></a>
+            <div class="new_product">
+             <span class="badge py-2 px-3 badge-pill badge-danger">Top Seller</span>
+          </div>
+        </div>
+        <div class="product-caption my-3">
+          <div class="product-ratting">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star low-star"></i>
+            <i class="far fa-star low-star"></i>
+          </div>
+          <h4><a href="product_detail.html">Froggie Bracelet</a></h4>
+          <div class="price">
+            <b><span class=mr-1>$</span><span>80</span></b>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-12 ">
+          <div class="single_product shadow text-center p-1">
+            <div class="product_img">
+            <a href="product_detail.html"><img src="assets/p5.jpg" class="img img-fluid" alt=""></a>
+            <div class="new_product">
+             <span class="badge py-2 px-3 badge-pill badge-danger">Top Seller</span>
+          </div>
+        </div>
+        <div class="product-caption my-3">
+          <div class="product-ratting">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star low-star"></i>
+            <i class="far fa-star low-star"></i>
+          </div>
+          <h4><a href="product_detail.html">Tote Bags</a></h4>
+          <div class="price">
+            <b><span class=mr-1>$</span><span>300</span></b>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-12 ">
+          <div class="single_product shadow text-center p-1">
+            <div class="product_img">
+            <a href="product_detail.html"><img src="assets/p6.jpg" class="img img-fluid" alt=""></a>
+            <div class="new_product">
+             <span class="badge py-2 px-3 badge-pill badge-danger">Top Seller</span>
+          </div>
+        </div>
+        <div class="product-caption my-3">
+          <div class="product-ratting">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star low-star"></i>
+            <i class="far fa-star low-star"></i>
+          </div>
+          <h4><a href="product_detail.html">Animated Bookmarks</a></h4>
+          <div class="price">
+            <b><span class=mr-1>$</span><span>75</span></b>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!--Features-->
+        <section class="feature py-5 mt-5 " id="feature">
+          <div class="container">
+            <div class="section_title text-center mb-5">
+              <h1 class="text-capitalize">Our Specialities</h1>
+            </div>
+            <div class="row text">
+              <div class="col-md-4 col-12 shadow p-3 ">
+                <div class=" text-center">
+                  <div class="mb-4">
+                    <i class="fas fa-shipping-fast fa-3x mb-3 pt-2"></i>
+                  </div>
+                  <h3>Free shipping and Secure Payments </h3>
+              </div>
+              </div>
+              <div>Free Shipping for first time order.All registered members can access free delivery at all time.
+                Online payment can be done through paypal,or any other form.Cash on delivery is also avaliable.
+                Product can be reviewed and payment can be done.
+              </div>
+              </div>
+              </div>
+              <div class="col-md-4 col-12 shadow p-3 ">
+                <div class=" text-center">
+                  <div class="mb-4">
+                    <!--<i class="fas fa-shipping-fast fa-3x mb-3 pt-2"></i>-->
+                  </div>
+                  <h3>Creating a Change </h3>
+              </div>
+              </div>
+              <div>Donating 10% of sales to required shelter homes,homeless shelters,animal rescue centers.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+         </section>
+
+         <section class="footer_section pt-5 pb-2" id="footer_section">
+          <footer>
+          <div class="container-fluid">
+            <div class="row">
+            <div class="col-md-3 col-6 pl-5 pl-small-15 ">
+              <div class="footer_title">
+              <a href="index.html">
+                <img src="assets/logo.png" height="300" width="300" frameborder="0" scrolling="no"  class="img img-fluid" width="120px" alt="logo">
+              </a>
+              </div>
+              <div></div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="footer_title pt-3 mb-3">
+                  <h3>Links</h3>
+                  </div>
+                  <div class="footer_links">
+                <ul>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="javascript:;">Offers</a></li>
+                  <li><a href="javascript:;">Coupon</a></li>
+                  <li><a href="contact.html">Reach Out To Us</a></li>
+                </ul>
+                </div>
+                </div>
+                <div class="col-md-3 col-6">
+                  <div class="footer_title pt-3 mb-3">
+                    <h3>New Products</h3>
+                    </div>
+                    <div class="footer_links">
+                  <ul>
+                    <li><a href="javascript:;">T-Shirts</a></li>
+                    <li><a href="javascript:;">Mugs</a></li>
+                    <li><a href="javascript:;">Lamps</a></li>
+                    <li><a href="javascript:;">Decor</a></li>
+                  </ul>
+                  </div>
+                  </div>
+                  <div class="col-md-3 col-6">
+                    <div class="footer_title pt-3 mb-3">
+                      <h3>Want To Know ?</h3>
+                      </div>
+                      <div class="footer_links">
+                    <ul>
+                      <li><a href="javascript:;">Major Questions Asked</a></li>
+                      <li><a href="javascript:;">Conditions</a></li>
+                      <li><a href="javascript:;">Policies</a></li>
+                      <li><a href="javascript:;">Issues</a></li>
+                    </ul>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="border-top">
+                      <h6 class="text-center mt-3">Copyright @2024 All Rights Reserved</h6>
+                    </div>
+                    </footer>
+                    </section>
+                    <div class="backtop">
+                      <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+                        <i class="fas fa-chevron-up text-dark"></i>
+                      </a>
+                    </div>
+              
+        
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
